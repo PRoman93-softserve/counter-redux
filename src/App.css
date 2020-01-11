@@ -1,22 +1,105 @@
+html {
+    background: black;
+    color: #69DCFB;
+    font-family: Calibri;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .App {
-  text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
 }
 
-.App-logo {
-  height: 40vmin;
+.counter {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 5px solid #69DCFB;
+    width: 250px;
+    border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.redNumber {
+    color: red;
 }
 
-.App-link {
-  color: #09d3ac;
+.number {
+    text-align: center;
+}
+
+.buttons {
+    border: 3px solid #69DCFB;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+}
+
+
+
+button {
+    margin: auto 0;
+    font-size: 30px;
+    background: deepskyblue;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: 5px solid #69DCFB;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.values {
+    border: 3px solid #69DCFB;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.values input {
+    width: 50%;
+    text-align: center;
+    margin: 3%;
+    border: 1px solid #69DCFB;
+    border-radius: 5px;
+}
+
+.number {
+    font-size: 50px;
+    border: 3px solid #69DCFB;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+}
+
+.set {
+
+}
+
+.string{
+    font-size: 12px;
+    color: darkmagenta;
+}
+.redInput{
+    background-color: firebrick;
+}
+.sizeCount{
+    font-size: 29px;
+    padding: 2px
+}
+.borderCount{
+    height: 65px;
 }
